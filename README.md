@@ -1,29 +1,31 @@
-# Ecommerce-Data-Analysis
-Data cleaning pipeline for Flipkart smartphone dataset using Pandas &amp; Regex, prepared for BI dashboards
+📊 Ecommerce Smartphone Data Cleaning & Analysis
 
-# Flipkart Smartphone Data Cleaning & Analysis
+This project demonstrates how to clean and preprocess messy e-commerce smartphone data from Flipkart using Python (Pandas, Regex) and prepare it for analysis and visualization — ideal for building BI dashboards or analytical reports.
 
-This project demonstrates how I clean and preprocess messy e-commerce smartphone data
-using Python (Pandas, Regex) and prepare it for analysis and visualization.
+🚀 What’s Inside
 
-## 🚀 What’s inside
-- Data cleaning pipeline (brand, model, OS, processor, price).
-- Regex-based extraction for structured info.
-- Handling typos and inconsistent formats.
-- Final dataset ready for Power BI / visualization.
+🧹 End-to-end data cleaning pipeline for smartphone listings (brand, model, OS, processor, price, etc.).
 
-## 📂 Repository Structure
-- `Flipcart_new.ipynb` → main Jupyter notebook with all steps.
-- `data/` → (sample data or instructions to download).
-- `README.md` → this file.
+🔍 Regex-based extraction of structured fields from unstructured text.
 
-## 🛠️ Tech Stack
-- Python (Pandas, Regex, Numpy)
-- Google Colab  
+🛠️ Handling of typos, inconsistent formats, and missing values.
 
-## 🎯 Learning Goals
-- Practice real-world messy data cleaning.
-- Build a pipeline that can be extended into analysis/BI dashboards.
-- Showcase skills for Data Analyst / BI Developer roles.
+📊 Final cleaned dataset ready for Power BI or other visualization tools.
 
+📂 Repository Structure
 
+Flipcart_new.ipynb – Main Jupyter notebook with the complete data cleaning and preprocessing workflow.
+
+code.ipynb – Additional notebook for testing, experimentation, or alternative approaches.
+
+output.csv – Final cleaned dataset exported from the pipeline, ready for analysis/BI dashboards.
+
+smartphones - smartphones.c – Experimental script (C language) related to smartphone data (optional component).
+
+README.md – This documentation file.
+
+🛠️ Tech Stack
+
+Python (Pandas, Regex, NumPy)
+
+Jupyter / Google Colab
