@@ -1,31 +1,33 @@
-📊 Ecommerce Smartphone Data Cleaning & Analysis
+# 📊 Flipkart Smartphone Data Cleaning & Analysis
 
-This project demonstrates how to clean and preprocess messy e-commerce smartphone data from Flipkart using Python (Pandas, Regex) and prepare it for analysis and visualization — ideal for building BI dashboards or analytical reports.
+This project focuses on cleaning and preprocessing messy smartphone data from Flipkart using Python. The goal is to transform unstructured e-commerce product data into a clean, structured format that can be used for data analysis and BI dashboards such as Power BI.
 
-🚀 What’s Inside
+---
 
-🧹 End-to-end data cleaning pipeline for smartphone listings (brand, model, OS, processor, price, etc.).
+## 🛠️ Tech Stack Used
 
-🔍 Regex-based extraction of structured fields from unstructured text.
+* **Python** – Main programming language for data cleaning and transformation
+* **Pandas** – Data manipulation, cleaning, and handling missing or inconsistent values
+* **Regex (Regular Expressions)** – Extracting structured details (brand, model, processor, etc.) from messy text fields
+* **NumPy** – Supporting data operations and handling numerical transformations
+* **Google Colab** – Interactive development environment for building and testing the data pipeline
 
-🛠️ Handling of typos, inconsistent formats, and missing values.
+---
 
-📊 Final cleaned dataset ready for Power BI or other visualization tools.
+## 📌 What I Did in This Project
 
-📂 Repository Structure
+* 📥 **Imported raw smartphone data** scraped from E-commerce (containing unstructured and inconsistent information).
+* 🧹 **Cleaned and preprocessed the dataset** by removing duplicates, handling missing values, fixing typos, and standardizing formats.
+* 🔍 **Extracted key features using Regex**, such as:
 
-Flipcart_new.ipynb – Main Jupyter notebook with the complete data cleaning and preprocessing workflow.
+  * **Brand** and **model name**
+  * **Processor type** and **operating system**
+  * **RAM** and **storage** details
+  * **Price information**
+* 🧪 **Handled irregularities** like inconsistent naming conventions, mixed data types, and noisy text.
+* 📊 **Exported the cleaned dataset** (`output.csv`), ready for use in Power BI or other visualization/analysis tools.
+* 🧠 Created a **reusable data cleaning pipeline** that can be adapted for other e-commerce datasets.
 
-code.ipynb – Additional notebook for testing, experimentation, or alternative approaches.
 
-output.csv – Final cleaned dataset exported from the pipeline, ready for analysis/BI dashboards.
 
-smartphones - smartphones.c – Experimental script (C language) related to smartphone data (optional component).
 
-README.md – This documentation file.
-
-🛠️ Tech Stack
-
-Python (Pandas, Regex, NumPy)
-
-Jupyter / Google Colab
